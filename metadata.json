@@ -1,0 +1,6 @@
+{
+  "name": "SIX ABS",
+  "description": "Premium, transformation-focused gym in Indirapuram offering expert personal mentorship, training for men & women, and quality supplements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Oswald', 'Montserrat', sans-serif;
+    --font-subheading: 'Montserrat', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #0B0B0B;
+    color: #FFFFFF;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: 0.02em;
+  }
+
+  .font-sub {
+    font-family: var(--font-subheading);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+  border-radius: 4px;
+  border: 1px solid #A8071040;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A80710;
+}
+
+/* Red glow effects */
+.glow-red {
+  box-shadow: 0 0 25px -5px rgba(168, 7, 16, 0.4);
+}
+
+.glow-red-sm {
+  box-shadow: 0 0 15px -3px rgba(168, 7, 16, 0.3);
+}
+
+.glow-red-lg {
+  box-shadow: 0 0 45px -10px rgba(168, 7, 16, 0.5);
+}
+
+.border-red-subtle {
+  border-color: rgba(168, 7, 16, 0.35);
+}
